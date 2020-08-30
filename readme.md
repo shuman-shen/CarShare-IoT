@@ -1,15 +1,17 @@
-# Contribution
+# Car Sharing IoT
 
--  Thomas Frantz
-    - PART A: master pi web app frontend
-    - PART A: master pi socket programming
-    - PART C: sphinx documentation
-- Jacob Morris
-    - PART C: facial recognition
-- Haosen Pang
-    - PART A: master pi socket programming
-    - PART B: agent pi socket programming
-- Shuman Shen
-    - PART A: master pi web app RESTful API
-    - PART C: sphinx documentation
-    - PART D: unit testing
+This project consists two parts: 
+
+1. Server side
+  - A backend providing RESTful API endpoints and WebSocket communications.
+  - A frontend built on React TypeScript and Ant Design for both user and staff access.
+2. Car side
+  - A Raspberry Pi 4 Model B installed on every car to facilitate open/lock control of the car.
+  - Track car location and sync in real-time with the server.
+  - Extra login features including facial and QR code recognition.
+  
+Tools:
+
+- Python (Flask, Socket.io, OpenCV2, Google Speech API).
+- React TypeScript (Google Maps API, Google Calendar API)
+- Raspberry Pi Bluetooth, USB camera, USB microphone
